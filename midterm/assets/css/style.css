@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    /* PROBLEM 1: Make the header stick to the top as you scroll */
+    position: fixed;
+ }
+
+ 
+ .content {
+    width: 900px;
+    /* PROBLEM 2: Align the page content to the center of the screen */
+    margin: 0 auto;
+ }
+ 
+ .block{
+   background-color: black;
+   width: 100%;
+ }
+ 
+ #image-banner {
+    background-image: url('../img/top_dog.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+ }
+
+ #section-block{
+   width: 100%;
+   background-color: black;
+   position: relative;
+   height: 500px;
+ }
+
+ #section-block-white{
+   width: 100%;
+   background-color: white;
+   position: relative;
+   height: 500px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items:flex-start;
+   flex-wrap: wrap;
+ }
+ 
+ 
+ 
+ /* PROBLEM 7: Improve the typography and colors of this page! */
+ 
+ 
+ #title {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+ 
+ 
+ }
+ 
+ 
+ h1 {
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ 
+ h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 70px;
+    color: white;
+ }
+ 
+ 
+ h3 {
+   font-family: 'Barlow Condensed', sans-serif;
+   font-size: 70px;
+   color: black;
+ }
+
+ h4 {
+   font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+ }
+ 
+ 
+ p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+ }
+
+
+ header {
+    background: #FFFF;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#logo{
+    height: 80px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+#hotdog_photo{
+   position: absolute;
+   height: 500px;
+   left: 0px;
+   right: 0px;
+}
+
+#description{
+   position: absolute;
+   padding: 1%;
+   padding-left: 65%;
+   right: 100px;
+}
+
+#more_about{
+   position: absolute;
+   padding-left: 40%;
+   right: 200px;
+}
+
+#hotdog_logo{
+   height: 400px;
+   padding: 5%;
+   padding-left: 17%;
+}
