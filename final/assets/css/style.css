@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
+   width: 100%;
+   height: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background: #F8F6F4;
+   position: fixed;
+ }
+ 
+ #image-banner {
+    background-image: url('../img/background_Image.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+ }
+
+ #flower{
+   padding-top: 55px;
+   padding-left: 308px;
+   width: 405px;
+   height: auto;
+   opacity: 0;
+ }
+
+ #flower:hover{
+   opacity: 1;
+ }
+
+ #loader{
+   width: 50px;
+   margin-left: 10px;
+   animation: spin 2s linear infinite;
+ }
+ 
+ @keyframes spin {
+   0% { transform: translate(0deg); }
+   100% { transform: rotate(360deg); }
+ }
+
+ #section-block{
+   width: 100%;
+   background-color: black;
+   position: relative;
+   height: 500px;
+ }
+
+ #section-block-white{
+   width: 100%;
+   background-color: #F8F6F4;
+   position: relative;
+   height: 550px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items:flex-start;
+   flex-wrap: wrap;
+ }
+ 
+ .css2{
+   font-family: 'Kulim Park', sans-serif;
+   font-size: 20px;
+   background: black;
+   color: #F8F6F4;
+   padding: 10px;
+ }
+ 
+ h1 {
+    font-family: 'Kulim Park', sans-serif;
+ }
+ 
+ 
+ h2 {
+    font-family: 'Miniver', sans-serif;
+    font-size: 50px;
+    color: #F8F6F4;
+ }
+ 
+ 
+ h3 {
+   font-family: 'Miniver', sans-serif;
+   font-size: 70px;
+   color: black;
+ }
+
+ h4 {
+   font-family: 'Miniver', sans-serif;
+   font-size: 30px;
+   color: #F8F6F4;
+}
+ 
+ 
+ p {
+    font-family: 'Kulim Park';
+    font-size: 14px;
+    color: #F8F6F4;
+ }
+
+ nav ul {
+   list-style-type: none;
+   padding-inline-start: 0;
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
+
+#logo{
+   height: 50px;
+}
+
+nav {
+   display: inline-block;
+   float: right;
+}
+
+nav li {
+   display: inline-block;
+   margin-left: 40px;
+   line-height: 50px;
+}
+
+nav a {
+   font-size: 18px;
+   font-family: 'Kulim Park', 'sans-serif';
+   color: black;
+   cursor: pointer;
+}
+
+nav a:link {
+   text-decoration: none;
+}
+
+nav a:hover {
+   text-decoration: underline;
+   color: #536B2A;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+#hotdog_photo{
+   position: absolute;
+   height: 500px;
+   left: 0px;
+   right: 0px;
+}
+
+#description{
+   position: relative;
+   margin: auto;
+   padding: 1px;
+   padding-left: 40%;
+}
+
+#more_about{
+   position: absolute;
+   padding: 20px;
+   padding-left: 50%;
+   right: 180px;
+   color: black;
+}
+
+#paragraph{
+   margin-top: -40px;
+}
+
+#funky_photo{
+   height: 500px;
+   padding: 2%;
+   padding-left: 12%;
+}
+
+#listing{
+   height: 250px;
+   margin: auto;
+   padding-left: 30px;
+}
+
+#listing:hover{
+   transform: scale(105%);
+   transition: .3s;
+}
+
+.popup {
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+ }
+ 
+ .popup .popuptext {
+   visibility: hidden;
+   width: 300px;
+   height: 30px;
+   background-color: #CBE338;
+   color: black;
+   text-align: center;
+   border-radius: 50px;
+   padding: 7px 0;
+   position: absolute;
+   bottom: 125%;
+   left: 50%;
+   margin-left: 0px;
+ }
+
+ .popuptext {
+   font-family: 'Miniver', sans-serif;
+   font-size: 20px;
+   color: black;
+ }
+ 
+ .popup .popuptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: 5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #CBE338 transparent transparent transparent;
+ }
+ 
+ .popup .show {
+   visibility: visible;
+   animation: fadeIn .5s
+ }
+ 
+ @keyframes fadeIn {
+   from {opacity: 0;}
+   to {opacity:1 ;}
+ }
+
+ #email{
+   width: 50px;
+   height: auto;
+   float: left;
+   animation-name: bounce;
+   animation-duration: .7s;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5);
+   animation-fill-mode: forwards;
+ }
+ 
+ @keyframes bounce {
+   0% { transform: translate(0, 5px); }
+   50% { transform: translate(0, 14px); }
+   100% { transform: translate(0, 5px); }
+ }
+
+ #section-block-black{
+   width: 100%;
+   background-color: black;
+   height: 170px;
+ }
+
+ #footer {
+   padding-left: 21%;
+   padding-top: 3%;
+}

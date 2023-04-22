@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #loader {
+  position: absolute;
+  padding: 150px;
+  margin-left: 275px;
+  width: 50px;
+  height: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: translate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ 
+ header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    position: fixed;
+ }
+
+ h1 {
+   font-family: 'Miniver';
+   font-size: 50px;
+   padding: 10%;
+   padding-left: 35%;
+ }
+
+ h2 {
+   font-family: 'Miniver';
+   font-size: 25px;
+   float: center;
+   position: relative;
+ }
+
+ p {
+   font-family: 'Kulim Park', sans-serif;
+   font-size: 14px;
+ }
+
+ h4 {
+    font-family: 'Miniver', sans-serif;
+    font-size: 30px;
+    color: #F8F6F4;
+ }
+
+ #footer {
+    padding-left: 21%;
+    padding-top: 3%;
+ }
+
+ header {
+    background: #F8F6F4;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#logo{
+    height: 50px;
+
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+nav a {
+    font-size: 18px;
+    font-family: 'Kulim Park', 'sans-serif';
+    color: black;
+    cursor: pointer;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #536B2A;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+#section-block{
+    width: 100%;
+    background-color: #F8F6F4;
+    height: 10px;
+    align-items: center;
+  }
+
+#section-block-white{
+   background-color: #F8F6F4;
+   padding: 20%;
+   padding-left: 325px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding-bottom: 2%;
+ }
+
+ #section-block-black{
+    width: 100%;
+    background-color: black;
+    height: 170px;
+  }
+
+.hot-dog_card{
+  height: auto;
+  width: 31.5%;
+  margin-bottom: 50px;  
+}
+
+.hot-dog_image:hover{
+   transform: scale(105%);
+   transition:0.3s;
+}
+
+.hot-dog_card_description{
+   padding: 3px 0px;
+}
+
+#hotdog_menuitem{
+   width: 200px;
+   height: auto;
+}
+
+#email{
+  width: 50px;
+  height: auto;
+  float: left;
+  animation-name: bounce;
+  animation-duration: .7s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5);
+  animation-fill-mode: forwards;
+}
+
+@keyframes bounce {
+  0% { transform: translate(0, 5px); }
+  50% { transform: translate(0, 14px); }
+  100% { transform: translate(0, 5px); }
+}
+
+#money{
+  height: 25px;
+}
+
+#money:hover{
+  transform: rotate(25deg);
+}
